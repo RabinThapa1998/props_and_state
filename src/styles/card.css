@@ -9,8 +9,7 @@
    background-color: #C7D3D4FF;
    color: #603F83FF; 
    border: solid 1px black;
-   max-width: 70%;
-   max-height: 70%;
+ 
 }
 .card-container:hover{
   color: #ff643d;
@@ -41,8 +40,11 @@
 .number{
   background-color:  #603F83FF;
   color:white;
+  max-width: 50%;
   border-radius: 50px;
+  padding: 15px;
   width: 9%;
+
 
 }
 .title{
