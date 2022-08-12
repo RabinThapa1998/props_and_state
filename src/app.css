@@ -4,9 +4,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 100%;
-    background-color: #603F83FF;
     color: white;
-
-    /* margin: 20px; */
+}
+.main{
+    align-items: center;
+    background-color: #603F83FF;
+  
 }

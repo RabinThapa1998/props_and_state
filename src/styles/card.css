@@ -1,4 +1,4 @@
-.heading {
+.card {
   font-size: 10em;
   font-weight: 100;
 }
@@ -9,15 +9,14 @@
    background-color: #C7D3D4FF;
    color: #603F83FF; 
    border: solid 1px black;
- 
 }
 .card-container:hover{
   color: #ff643d;
   border: #fb3e0f solid 1px;
   background:#fff;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
   
 }
 

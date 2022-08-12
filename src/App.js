@@ -28,12 +28,14 @@ function App() {
   return (
     <Todoslist.Provider value={data}>
     <div className='app'>
+       <div className='main'>
       <center><h1>Todos List</h1>
       {/* add title component here */}
       {/* map json data for each item and return card component here */}
    
      <Mainsection></Mainsection>
       </center>
+    </div>
     </div>
     </Todoslist.Provider>
   );
