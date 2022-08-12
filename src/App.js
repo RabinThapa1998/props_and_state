@@ -3,6 +3,7 @@ import './app.css'
 import { useEffect , useState} from 'react'
 import { Todoslist } from './Context/data.js/context';
 import Mainsection from './components/sections/mainSection';
+import { Navbar } from './components/sections/navbar';
 function App() {
   
   const [data, setData] = useState([]);
@@ -27,6 +28,7 @@ function App() {
 
   return (
     <Todoslist.Provider value={data}>
+    <Navbar/>
     <div className='app'>
        <div className='main'>
       <center><h1>Todos List</h1>
