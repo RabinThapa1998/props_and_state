@@ -2,3 +2,50 @@
   font-size: 10em;
   font-weight: 100;
 }
+.card-container{  
+   padding: 10px;
+   margin: 40px;
+   border-radius: 20px ;
+   background-color: #C7D3D4FF;
+   color: #603F83FF; 
+   border: solid 1px black;
+   max-width: 70%;
+   max-height: 70%;
+}
+.card-container:hover{
+  color: #ff643d;
+  border: #fb3e0f solid 1px;
+  background:#fff;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  
+}
+
+.completed h6{
+  background-color:green;
+  border-radius: 10px;
+  color: white; 
+  width:15%;
+  margin: 30px;
+  padding: 10px;
+}
+.not-completed h6{
+  background-color:red;
+  border-radius: 10px;
+  color: white; 
+  margin: 30px;
+  width:15%;
+  padding: 10px;
+}
+.number{
+  background-color:  #603F83FF;
+  color:white;
+  border-radius: 50px;
+  width: 9%;
+
+}
+.title{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
