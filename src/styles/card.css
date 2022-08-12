@@ -24,25 +24,29 @@
 .completed h6{
   background-color:green;
   border-radius: 10px;
-  color: white; 
+  color: white;
+  margin-left: 50px; 
   width:15%;
-  margin: 30px;
-  padding: 10px;
+  padding: 5px;
 }
 .not-completed h6{
   background-color:red;
   border-radius: 10px;
   color: white; 
-  margin: 30px;
+  margin-left: 50px;
   width:15%;
-  padding: 10px;
+  padding: 5px;
+
 }
 .number{
+   float:left;
+   padding: 12px;
+
   background-color:  #603F83FF;
   color:white;
   max-width: 50%;
   border-radius: 50px;
-  padding: 15px;
+ 
   width: 9%;
 
 
@@ -50,4 +54,5 @@
 .title{
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
+  padding: 20px;
 }
